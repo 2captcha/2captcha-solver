@@ -2,7 +2,7 @@
     "name": "__MSG_extName__",
     "short_name": "__MSG_extShortName__",
     "default_locale": "en",
-    "version": "3.0.7",
+    "version": "3.0.8",
     "description": "__MSG_extDescription__",
     "homepage_url": "https://2captcha.com/",
     "manifest_version": 3,
@@ -15,7 +15,7 @@
     ],
     "action": {
         "default_popup": "popup/popup.html",
-        "default_title": "2Captcha Solver",
+        "default_title": "2Captcha Auto Solve reCAPTCHA/hCAPTCHA Bypass",
         "default_icon": {
             "32": "assets/images/icon_32.png",
             "128": "assets/images/icon_128.png"

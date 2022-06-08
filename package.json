@@ -1,7 +1,7 @@
 {
     "title": "__MSG_extName__",
     "name": "__MSG_extShortName__",
-    "version": "3.0.7",
+    "version": "3.0.8",
     "description": "__MSG_extDescription__",
     "author": "2Captcha",
     "engines": {
@@ -9,8 +9,8 @@
         "fennec": ">=38.0a1"
     },
     "scripts": {
-        "chrome": "git archive -o build\/2captcha-solver-chrome-$(awk -F\\\" '\/\"version\":\/ {print $4}' package.json).zip -9 origin\/main --worktree-attributes",
-        "firefox": "git archive -o build\/2captcha-solver-firefox-$(awk -F\\\" '\/\"version\":\/ {print $4}' package.json).zip -9 origin\/firefox --worktree-attributes"
+        "chrome": "git archive -o build\/2captcha-solver-chrome-$(awk -F\\\" '\/\"version\":\/ {print $4}' package.json).zip -9 main --worktree-attributes",
+        "firefox": "git archive -o build\/2captcha-solver-firefox-$(awk -F\\\" '\/\"version\":\/ {print $4}' package.json).zip -9 firefox --worktree-attributes"
     },
     "license": "MIT",
     "keywords": [

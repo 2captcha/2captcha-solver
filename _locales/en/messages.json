@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "2Captcha Solver"
+    "message": "2Captcha Solve reCAPTCHA/hCAPTCHA Auto Bypass"
   },
   "extDescription": {
-    "message": "This plugin allows you to automatically solve CAPTCHAs found on any webpage."
+    "message": "2Captcha plugin allows you to automatically solve CAPTCHAs found on any webpage."
   },
   "extShortName": {
     "message": "2Captcha"
